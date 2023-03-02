@@ -15,7 +15,7 @@ body
 }
 .login
 {
-    /* 超出部分隐藏 */
+   
     overflow: hidden;
     position: relative;
     display: flex;
@@ -32,7 +32,6 @@ h1
 {
     font-size: 45px;
     font-weight: 400;
-    /* 提高层级 */
     z-index: 1;
 }
 form
@@ -43,7 +42,6 @@ form
     align-items: center;
     width: 100%;
     height: 230px;
-    /* 提高层级 */
     z-index: 1;
 }
 input
@@ -79,13 +77,13 @@ span
     width: 0;
     height: 0;
     background-color: #916968;
-    /* 鼠标居中 */
+
     transform: translate(-50%, -50%);
-    /* 圆的形式展开 */
+   
     border-radius: 50%;
 }
 
-/* 鼠标进入 login 时的动画 */
+
 @keyframes in
 {
     0%
@@ -100,7 +98,7 @@ span
     }
 }
 
-/* 鼠标离开 login 时的动画 */
+
 @keyframes out
 {
     0%
